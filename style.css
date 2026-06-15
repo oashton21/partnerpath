@@ -5,6 +5,10 @@
     font-family: Arial, sans-serif;
 }
 
+html {
+    overflow-y: scroll;
+}
+
 body {
     overflow-x: hidden;
 }
@@ -111,12 +115,12 @@ body {
 }
 
 .hero-content h2 {
-    font-size: 50px;
-    margin-bottom: -10px;
+    font-size: 60px;
+    margin-bottom: -30px;
 }
 
 .hero-content h1 {
-    font-size: 110px;
+    font-size: 130px;
     font-weight: 800;
 }
 
@@ -125,7 +129,9 @@ body {
     font-style: italic;
 
     max-width: 700px;
-    margin: 20px auto;
+    margin: 10px auto;
+    margin-top: -5px;
+    margin-bottom: 30px;
 }
 
 .hero-btn {
