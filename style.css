@@ -238,6 +238,9 @@ body {
 .category-card {
     border-radius: 12px;
     overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    display: block;
 }
 
 .category-title {
