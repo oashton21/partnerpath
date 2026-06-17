@@ -264,20 +264,6 @@ body {
     gap: 20px;
 }
 
-/* INITIALS PLACEHOLDER LOGOS */
-
-.initials-circle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    color: white;
-    font-weight: bold;
-    text-transform: uppercase;
-
-    background: #4db8e8;
-}
-
 .org-logo-circle {
     width: 80px;
     height: 80px;
@@ -1059,13 +1045,9 @@ body {
     transition: 0.2s;
 }
 
-.org-card:not(.disabled):hover {
+.org-card:hover {
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     border-color: #1b66c1;
-}
-
-.org-card.disabled {
-    cursor: default;
 }
 
 .org-card-pfp {
@@ -1107,4 +1089,18 @@ body {
     font-size: 16px;
     color: #333;
     max-width: 700px;
+}
+
+/* INITIALS PLACEHOLDER LOGOS */
+
+.initials-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    background: #4db8e8;
 }
