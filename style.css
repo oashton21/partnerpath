@@ -275,16 +275,7 @@ body {
     font-weight: bold;
     text-transform: uppercase;
 
-    background: linear-gradient(135deg, #2b9fd9, #1b008b);
-}
-
-.org-logo-circle {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    overflow: hidden;
-
-    background: #1b1b1b;
+    background: #4db8e8;
 }
 
 .org-logo-circle.initials-circle {
