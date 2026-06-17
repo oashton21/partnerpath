@@ -264,6 +264,20 @@ body {
     gap: 20px;
 }
 
+/* INITIALS PLACEHOLDER LOGOS */
+
+.initials-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    background: linear-gradient(135deg, #2b9fd9, #1b008b);
+}
+
 .org-logo-circle {
     width: 80px;
     height: 80px;
@@ -273,8 +287,24 @@ body {
     background: #1b1b1b;
 }
 
-.org-logo-circle.empty {
-    background: #b3b3b3;
+.org-logo-circle.initials-circle {
+    font-size: 24px;
+}
+
+.org-card-pfp.initials-circle {
+    font-size: 28px;
+}
+
+.org-circle.initials-circle {
+    font-size: 18px;
+}
+
+.org-circle.small.initials-circle {
+    font-size: 16px;
+}
+
+.author-circle.initials-circle {
+    font-size: 14px;
 }
 
 .org-logo-circle img {
