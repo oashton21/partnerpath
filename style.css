@@ -278,6 +278,13 @@ body {
     background: #4db8e8;
 }
 
+.org-logo-circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
 .org-logo-circle.initials-circle {
     font-size: 24px;
 }
